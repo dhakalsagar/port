@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>learning java</title>
+    <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+ <header>
+   <nav>
+   <div class="navbar">
+     <div class="logo">
+        <img src="image/Picture1.png" alt="">
+     </div>
+     <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#qualification">Qualification</a></li>
+        <li><a href="#categories">Category</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="search-box">
+        <input type="text" placeholder="Search here...">
+        <a href="#"><i class="fas fa-search"></i></a>
+      </div>
+   </div>
+   </nav>
+
+   <div class="content">
+     <div class="text-content">
+       <div class="text">Hello, It's Me </div>
+       <div class="name">ピピ!</div>
+       <div class="job">
+         <div class="job">
+           <span>And I'm a</span>
+            <div class="typing-text">
+              <span class="one">Site Designer & youtuber</span>
+            </div>
+          </div>
+       </div>
+       <div class="buttons">
+          <button id="myBtn">About Me</button>
+          <a href="assests/cv.pdf" download>Download CV<span></span></a>
+      </div>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                 reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, 
+              sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+     </div>
+     <div class="boy">
+       <img src="image/Picture1.png" alt="">
+     </div>
+   </div>
+   <div class="media-icons">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    <a href="#"><i class="fab fa-pinterest"></i></a>
+   </div>
+ </header>
+ <section id="qualification">
+   <div class="letest">
+     <div class="information">
+       <div class="gallery">
+              <P class="js-scroll">Qualification</P>
+              <img class="img1 js-scroll" src="image/certificate.svg" alt="">
+                <span class="span1 js-scroll">Coursera<br>Html, Css and Javascript<br>2022, March<br>(Computer Association Nepal)<br>java,<br>A.D 2017</span>
+                <div class="schoolInfo js-scroll"><span>School:</span><br> Shree Amar Singh Higher School.<br>A.D 2001 ~ 2002<br><span>College:</span><br>Shree Kalika Higher School.<br>A.D 2001 ~ 2002<br>
+                <span>Bachelor:</span><br>La Grandee International college.<br>A.D 2001 ~ 2002</div>
+            <div class="backGround js-scroll">
+              <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+              <p>Bachelor Degree in,<br>Technology</p>
+              <p>2017 ~ 2021</p>
+              <p class="location js-scroll">Wakkanai Hokusei Gakuen University</p>
+            <div class="locationMap">
+              <span class="close ">&times;</span>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2802.3156308003254!2d141.71573381523976!3d45.38280347910004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f103b2edc29ef1d%3A0x6215a5a47cb6f338!2sWakkanai%20Hokusei%20Gakuen%20University!5e0!3m2!1sen!2sjp!4v1651027121266!5m2!1sen!2sjp"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!-- <div class="moon"> -->
+   <!-- <img class="moonImg" src="image/center.png" alt=""> -->
+  </div>
+ <section id="categories">
+   <div class="categories">
+    <div class="letest">
+      <div class="information">
+        <div class="gallery">
+          <P class="js-scroll">Category</P>
+          <div class="backGround js-scroll ">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <div class="moon"></div> -->
+
+<section id="services">
+  <div class="categories">
+   <div class="letest">
+     <div class="information">
+       <div class="gallery ">
+         <P class="js-scroll">Services</P>
+         <div class="backGround js-scroll">
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+<!-- <div class="moon "></div> -->
+<section id="contact">
+  <div class="categories">
+   <div class="letest">
+     <div class="information">
+       <div class="gallery ">
+         <P class="js-scroll">Contact</P>
+         <div class="formContainer">
+          <form onsubmit="sendEmail(); reset(); return false;">
+            <input type="text" id="name" placeholder="Enter name" required>
+            <input type="email" id="email" placeholder="Enter your valid mail" required>
+            <input type="tel" id="phone" placeholder="phone number" required>
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Tell us your problem"></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+ <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
